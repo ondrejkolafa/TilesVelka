@@ -112,3 +112,8 @@ function updateSlider() {
   }
 
 }
+
+function reset() {
+  console.log("reset");
+  window.location = window.location.href.split('#')[0];
+}
