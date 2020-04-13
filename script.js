@@ -99,3 +99,16 @@ function refreshCounter() {
   document.getElementById("yellow").innerHTML = colors_used[3];
 
 }
+
+function updateSlider() {
+  var slider = document.getElementById("myRange");
+  var output = document.getElementById("tile_width");
+  output.innerHTML = slider.value;
+
+  var elements = document.querySelectorAll("td");
+  for (var i= 0; i < elements.length; i++) {
+    elements[i].style.width = slider.value + 'px';
+    elements[i].style.height = slider.value + 'px';
+  }
+
+}
