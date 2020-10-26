@@ -3,4 +3,4 @@
 Arrange your old tiles to form a new patio.
 
 Working example on repl.it:
-https://repl.it/github/ondrejkolafa/TilesVelka
+https://tilesvelka.ondrejkolafa.repl.co/
